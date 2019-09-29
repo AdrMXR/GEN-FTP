@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+echo "shell especifica para usuario FTP"

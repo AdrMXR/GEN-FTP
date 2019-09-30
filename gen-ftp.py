@@ -49,7 +49,7 @@ def private(): #Servidor FTP local
 	time.sleep(2)
 	os.system('systemctl stop vsftpd')
 	user = raw_input('Ingrese un nombre de usuario: ')
-	os.system('adduser {0}'.format(user))
+	os.system('adduser {0} --force-badname'.format(user))
 	carpet = raw_input("Ingrese un nombre para su carpeta de archivos ftp: ")
 	time.sleep(2)
 	print("Realizando configuraciones FTP...")

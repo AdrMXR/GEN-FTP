@@ -25,7 +25,7 @@ def check(host='https://www.google.com'):
 		banner()
 	except:
 		print("{}Verifique su conexion a internet para utilizar GEN-FTP").format(RED)
-
+		exit(0)
 
 def banner():
 	os.system('clear')

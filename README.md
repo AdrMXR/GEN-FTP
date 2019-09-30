@@ -17,6 +17,7 @@ Posteriormente, se nos abrirá automaticamente el login de nuestro router.
 Si tienen problemas con el seguimiento de este proceso les recomiendo buscar en internet como abrir puertos en su correspondiente router, ya que el proceso puede variar por los diferentes modelos. 
 
 Posteriormente, ya que hayamos iniciado con nuestro usuario y contraseña de nuestro internet, buscaremos el apartado llamado NAT, para configurar los puertos correspondientes. 
+
 <p align="center"><img src="https://github.com/AdrMXR/GEN-FTP/blob/master/screenshot-2.png" /></p>
 
 Una vez en este apartado, seleccionaremos la opción de servidores y especificaremos que tipo de servidor es con el que queremos trabajar, pondremos una pequeña descripción y seleccionaremos la IP de nuestro servidor local, en PUERTO LAN pondremos el puerto 21 que esta por default y en PUERTO PUBLICO podemos poner el mismo o cualquier otro. 

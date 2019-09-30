@@ -22,5 +22,48 @@ Posteriormente, ya que hayamos iniciado con nuestro usuario y contraseña de nue
 
 Una vez en este apartado, seleccionaremos la opción de servidores y especificaremos que tipo de servidor es con el que queremos trabajar, pondremos una pequeña descripción y seleccionaremos la IP de nuestro servidor local, en PUERTO LAN pondremos el puerto 21 que esta por default y en PUERTO PUBLICO podemos poner el mismo o cualquier otro. 
 
+## ¿Cómo acceder mediante FTP?
+
+Local:
+```bash
+ftp -i localhost [PUERTO LAN]  
+```
+Publico:
+```bash
+ftp -i ip-publica [PUERTO PÚBLICO]
+```
+
+## Requisitos 
+* Un sistema Linux en funcionamiento, cualquier distribución basada en debian es compatible con la herramienta.
+* La herramienta fue escrita en python2.7, por lo tanto se necesita una versión inferior a la 3 que es la más actualizada hasta ahora ya que de lo contrario nos marcará un error al ejecutar la herramienta, esto se debe a que la syntaxis de python 2 y python 3 son distintas. 
+
+## Instalación 
+```bash
+sudo apt install python2.7 python-pip  
+```
+```bash
+git clone https://github.com/AdrMXR/GEN-FTP.git
+```
+```bash
+cd GEN-FTP 
+```
+```bash
+pip install -r requirements.txt 
+```
+```bash
+python gen-ftp.py 
+```
+
+## Screenshot de la herramienta
+<p align="center"><img src="https://github.com/AdrMXR/GEN-FTP/blob/master/screenshot-3.png" /></p>
+
+## Creditos
+Creador de la herramienta: Adrian Guillermo
+
+Facebook: https://www.facebook.com/Adrian.Guillermo.22
+
+Instagram: https://www.instagram.com/adrian.guillermo22/
+
+YouTube: https://www.youtube.com/channel/UCqEtxJKbIghx6lyymrjfvnA?view_as=subscriber
 
 

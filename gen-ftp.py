@@ -92,7 +92,6 @@ def menu():
 		return menu()
 
 #Ejecucion de funciones
-
 check()
 banner()
 menu()
